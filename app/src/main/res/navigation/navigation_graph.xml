@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/firstScreen">
+
+    <fragment
+        android:id="@+id/firstScreen"
+        android:name="br.com.fausto.basicnavcomponent.FirstScreen"
+        android:label="Home"
+        tools:layout="@layout/fragment_first_screen" />
+    <fragment
+        android:id="@+id/secondFragment"
+        android:name="br.com.fausto.basicnavcomponent.SecondFragment"
+        android:label="Middle"
+        tools:layout="@layout/fragment_second" />
+    <fragment
+        android:id="@+id/lastFragment"
+        android:name="br.com.fausto.basicnavcomponent.LastFragment"
+        android:label="End"
+        tools:layout="@layout/fragment_last" />
+</navigation>

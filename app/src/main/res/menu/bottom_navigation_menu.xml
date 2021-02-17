@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/firstScreen"
+        android:icon="@drawable/ic_meditation"
+        android:title="First" />
+    <item
+        android:id="@+id/secondFragment"
+        android:icon="@drawable/ic_science"
+        android:title="Second" />
+    <item
+        android:id="@+id/lastFragment"
+        android:icon="@drawable/ic_cafe"
+        android:title="Last" />
+</menu>
